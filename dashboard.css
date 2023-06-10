@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+}
+.sidebar-container {
+  flex: 20%;
+  background: #ffffff;
+}
+.sidebar-wrapper {
+  margin-top: 0.9rem;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+.image-wrapper img {
+  padding: 0.9rem;
+}
+.sidebar-content {
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+.sidebar-content li {
+  list-style: none;
+  margin-bottom: 1.3rem;
+}
+.sidebar-content ul li a {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  text-decoration: none;
+}
+.sidebar-content ul li a img {
+  display: block;
+  width: 20px;
+  height: 20px;
+  color: #252525;
+}
+.icontext {
+  font-size: 1.2rem;
+  color: #252525;
+  opacity: 0.4;
+}
+.main-container {
+  flex: 80%;
+  background: #e5e5e5;
+}
+header {
+  background: #fff;
+  padding: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.search-wrapper {
+  display: flex;
+  align-items: center;
+}
+.search-wrapper img {
+  width: 18px;
+  height: 18px;
+  color: #231f20;
+}
+.search-input {
+  border: none;
+  outline: 0;
+}
+::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  opacity: 0.4;
+}
+.user-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+.username {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+}
+.role {
+  font-size: 14px;
+  color: #000000;
+  opacity: 0.4;
+}
+.dashboard-analysis {
+  padding: 2rem;
+}
+.dms-dash {
+  margin-top: 2rem;
+  height: 100%;
+}
+
+.card {
+  background-color: #fff;
+  margin-bottom: 0.9rem;
+  padding: 20px;
+  border-radius: 5px;
+}
+.number h1 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 49px;
+  color: #ff3a29;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.top h3 {
+  width: 40%;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.number {
+  display: flex;
+  gap: 0.4rem;
+}
+.moment span {
+  display: flex;
+  align-items: center;
+}
+.moment img {
+  display: flex;
+  align-items: center;
+}
+.moment {
+  display: flex;
+  align-items: center;
+}
+.moment span {
+  font-weight: 400;
+  font-size: 12px;
+  color: #92929d;
+}
+@media (max-width: 768px) {
+  .icontext {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .icontext {
+    display: none;
+  }
+}

@@ -34,10 +34,59 @@
         </div>
       </div>
       <div class="right-container">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
-        quibusdam suscipit consectetur reprehenderit tempora ipsam! Ipsum ullam
-        distinctio quod magni a unde ipsa. Voluptate commodi deserunt
-        reprehenderit fugit provident numquam!
+        <div class="right-content">
+          <progress class="progress-bar" value="65" max="100"></progress>
+          <div class="form-info">
+            <h3>You’re Welcome Back!</h3>
+            <p>Enter the following information below</p>
+          </div>
+          <div class="form-wrapper">
+            <form>
+              <div class="name-input">
+                <input type="text" placeholder="Company name" />
+                <input type="text" placeholder="Lastname" />
+              </div>
+              <input type="text" placeholder="Company Address" required />
+              <input type="text" placeholder="Phone Number" required />
+              <input
+                type="email"
+                placeholder="Company Email Address"
+                id="email"
+                required
+              />
+              <div class="password-container">
+                <input
+                  type="password"
+                  placeholder="Password"
+                  id="password"
+                  required
+                />
+                <i class="fa fa-eye"></i>
+                <img
+                  onclick="showAndHide()"
+                  src="./images/eye.png"
+                  alt="eye icon"
+                  class="eye"
+                  id="eye"
+                />
+              </div>
+            </form>
+          </div>
+          <p class="terms-condition">
+            By clicking "Next" you agree to our
+            <a href="/term-condition">Terms of Service, Privacy Policy,</a>
+            and to receive marketing communications from Envoy.
+          </p>
+          <a class="fpassword" href="./forgot-password.html"
+            >Forgot Password?</a
+          >
+          <div class="account">
+            <p class="account-text">
+              Just joining us here? <a href="./index.html">Register Now</a>
+            </p>
+            <a href=""><button id="login" class="get-btn">Login</button></a>
+          </div>
+        </div>
       </div>
     </div>
     <!-- section -->
